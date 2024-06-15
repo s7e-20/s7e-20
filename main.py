@@ -43,6 +43,16 @@ def update_last_moves(line):
         last_moves.seek(0, 0)
         last_moves.write(line.rstrip('\r\n') + '\n' + content)
 
+def replace_curly_braces(original_text):
+    """Replace curly braces not to be replaced"""
+    delimiter_a = '{'
+    delimiter_b = '}'
+
+    if original_text.find(delimiter_a) == -1 or original_text.find(delimiter_b) == -1:
+        return original_text
+
+    leading_updated_text = original_text.split(delimiter_a)[0] + '{' + original_text.split(delimiter_a)[1]
+    return leading_updated_text.split(delimiter_b)[0] + '}' + leading_updated_text.split(delimiter_b)[1]
 
 def replace_text_between(original_text, marker, replacement_text):
     """Replace text between `marker['begin']` and `marker['end']` with `replacement`"""
@@ -198,6 +208,7 @@ def main(issue, issue_author, repo_owner):
 
     with open('README.md', 'r') as file:
         readme = file.read()
+        readme = replace_curly_braces()
         readme = replace_text_between(readme, settings['markers']['board'], '{chess_board}')
         readme = replace_text_between(readme, settings['markers']['moves'], '{moves_list}')
         readme = replace_text_between(readme, settings['markers']['turn'], '{turn}')
@@ -206,13 +217,12 @@ def main(issue, issue_author, repo_owner):
 
     with open('README.md', 'w') as file:
         # Write new board & list of movements
-        test = readme.format(
+        file.write(readme.format(
             chess_board=markdown.board_to_markdown(gameboard),
             moves_list=markdown.generate_moves_list(gameboard),
             turn=('white' if gameboard.turn == chess.WHITE else 'black'),
             last_moves=last_moves,
-            top_moves=markdown.generate_top_moves())
-        file.write(test)
+            top_moves=markdown.generate_top_moves()))
 
     return True, ''
 

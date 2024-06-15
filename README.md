@@ -1,10 +1,10 @@
 ```css
 #s7e-20 {
-  position: Serbia; 
-  height: 171cm; 
-  display: boy; 
-  background: Lego Toy Fan 🔨; 
-  color: white 
+  position: Serbia;
+  height: 171cm;
+  display: boy;
+  background: Lego Toy Fan 🔨;
+  color: white;
 }
 ```
 
