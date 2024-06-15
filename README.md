@@ -1,11 +1,11 @@
 ```css
-#s7e-20 { 
+#s7e-20 {{
   position: Serbia; 
   height: 171cm; 
   display: boy; 
   background: Lego Toy Fan 🔨; 
   color: white 
-}
+}}
 ```
 
 <h3 align="center">A passionate Full stack developer with more than 10 years of experience in web and mobile development.</h3>
