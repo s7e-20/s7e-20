@@ -51,8 +51,8 @@ def replace_curly_braces(original_text):
     if original_text.find(delimiter_a) == -1 or original_text.find(delimiter_b) == -1:
         return original_text
 
-    leading_updated_text = original_text.split(delimiter_a)[0] + '{' + original_text.split(delimiter_a)[1]
-    return leading_updated_text.split(delimiter_b)[0] + '}' + leading_updated_text.split(delimiter_b)[1]
+    leading_updated_text = original_text.split(delimiter_a)[0] + '{{' + original_text.split(delimiter_a)[1]
+    return leading_updated_text.split(delimiter_b)[0] + '}}' + leading_updated_text.split(delimiter_b)[1]
 
 def replace_text_between(original_text, marker, replacement_text):
     """Replace text between `marker['begin']` and `marker['end']` with `replacement`"""
