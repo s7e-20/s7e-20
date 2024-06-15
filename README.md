@@ -3,7 +3,7 @@
   position: Serbia; 
   height: 171cm; 
   display: boy; 
-  background: Lego Toy Fan �; 
+  background: Lego Toy Fan 🔨; 
   color: white 
 }
 ```
