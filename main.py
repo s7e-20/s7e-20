@@ -208,7 +208,7 @@ def main(issue, issue_author, repo_owner):
 
     with open('README.md', 'r') as file:
         readme = file.read()
-        readme = replace_curly_braces()
+        readme = replace_curly_braces(readme)
         readme = replace_text_between(readme, settings['markers']['board'], '{chess_board}')
         readme = replace_text_between(readme, settings['markers']['moves'], '{moves_list}')
         readme = replace_text_between(readme, settings['markers']['turn'], '{turn}')
