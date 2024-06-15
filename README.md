@@ -27,6 +27,9 @@
   <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40" />
   </a>
+  <a href="https://www.w3schools.com/python/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40" />
+  </a>
 </p>
 
 <h3 align="left">Frameworks:</h3>
@@ -60,6 +63,19 @@
   </a>
   <a href="https://flutter.dev" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40" />
+  </a>
+</p>
+
+<h3 align="left">Styling Frameworks:</h3>
+<p align="left">
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="tailwindcss" width="45" height="45" />
+  </a>
+  <a href="https://mui.com/material-ui/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" alt="material" width="45" height="45" />
+  </a>
+  <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" width="45" height="45" />
   </a>
 </p>
 
