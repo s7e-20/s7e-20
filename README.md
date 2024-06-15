@@ -39,7 +39,7 @@
     <img alt="Angular" src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
   </a>
   <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
-    <img alt="Vue" src="https://img.shields.io/badge/-Vue-42b883?style=flat-square&logo=vue&logoColor=white" />
+    <img alt="Vue" src="https://img.shields.io/badge/-Vue-42b883?style=flat-square&logo=Vue.js&logoColor=white" />
   </a>
   <a href="https://expressjs.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" />
