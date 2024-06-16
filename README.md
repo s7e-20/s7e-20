@@ -25,9 +25,6 @@
   <a href="https://www.w3schools.com/python/" target="_blank" rel="noreferrer">
     <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />
   </a>
-  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
-    <img alt="C#" src="https://img.shields.io/badge/-C#-512BD4?style=flat-square&logo=C#&logoColor=white" />
-  </a>
 </p>
 
 <h3 align="left">Frameworks:</h3>
@@ -64,13 +61,13 @@
 <h3 align="left">Styling Frameworks:</h3>
 <p align="left">
   <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="tailwindcss" width="45" height="45" />
+    <img alt="Tailwind CSS" src="https://img.shields.io/badge/-tailwindcss-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
   </a>
   <a href="https://mui.com/material-ui/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" alt="material" width="45" height="45" />
+    <img alt="MUI" src="https://img.shields.io/badge/-MUI-007FFF?style=flat-square&logo=MUI&logoColor=white" />
   </a>
   <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" width="45" height="45" />
+    <img alt="Bootstrap" src="https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=white" />
   </a>
 </p>
 
