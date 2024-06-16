@@ -83,7 +83,7 @@
     <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
   </a>
   <a href="https://aws.amazon.com/dynamodb/" target="_blank" rel="noreferrer">
-    <img alt="DanymoDB" src="https://img.shields.io/badge/-DanymoDB-#4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" />
+    <img alt="DanymoDB" src="https://img.shields.io/badge/-DanymoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" />
   </a>
 </p>
 
